@@ -28,6 +28,7 @@ public class Deliver implements Serializable {
 
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant moment;
+	
 	private DeliverStatus status;
 	private String feedback;
 	private Integer correctCount;
